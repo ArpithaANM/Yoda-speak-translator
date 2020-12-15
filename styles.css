@@ -19,22 +19,18 @@ div {
 /** Navigation **/
 nav {
     background-color: var(--primary-color);
-    text-align: center;
     color: white;
     padding: 1rem;
 }
 
-.navigation {
-    font-size: 2rem;
-    padding: 1rem;
+#input {
+    text-align: start;
 }
 
 textarea {
-    text-align: start;
-    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 600px;
     margin: auto;
-    /* box-sizing: border-box; */
     display: block;
     width: 100%;
     min-height: 20vh;
@@ -43,8 +39,9 @@ textarea {
 }
 
 button {
+    color: white;
     background-color: var(--primary-color);
-    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -59,7 +56,7 @@ button {
     border: 1px solid black;
     min-height: 10vh;
     max-height: 30vh;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .font {
@@ -70,6 +67,7 @@ button {
 
 /** footers **/
 footer {
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
