@@ -1,11 +1,11 @@
 var btnTranslate = document.querySelector("#translateBtn");
-var txtInput = document.querySelector("#txt-input");
+var txtInput = document.querySelector("#input");
 var outputDiv = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/yoda.json"
 
-function getTranslationURL(input) {
-    return serverURL + "?" + "text=" + input
+function getTranslationURL(text) {
+    return serverURL + "?" + "text=" + text
 }
 
 function errorHandler(error) {

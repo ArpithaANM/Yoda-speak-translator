@@ -10,7 +10,6 @@ body {
     display: block;
     margin: 0;
     text-align: center;
-    color: white;
 }
 
 div {
@@ -21,7 +20,8 @@ div {
 nav {
     background-color: var(--primary-color);
     text-align: center;
-    display: block;
+    color: white;
+    padding: 1rem;
 }
 
 .navigation {
